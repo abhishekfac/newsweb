@@ -1,0 +1,26 @@
+.navbar{
+    color: #fff;
+    background-color: var(--primary-color);
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar-nav{
+    font-size: 25px;
+}
+.nav-link{
+    color: #fff;
+    margin-left: 12px;
+    transition: transform .2s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+.nav-link.active-link{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: underline;
+}
